@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+</head>
+
+<body>
+    <h2>My Feedback Form</h2>
+    <form action="">
+        <ul>
+            <li><label for="name">Name:</label>
+                <input type="text" name="name"><br>
+            </li>
+            <li><label for="email">Email:</label>
+                <input type="email" name="email"><br>
+            </li>
+            <li><label for="pass">password:</label>
+                <input type="password" name="pass"><br><br>
+            </li>
+            <li><label for="emotion">Please check all the emotion that apply to you:</label></li>
+            <ul style="list-style-type: disc;">
+                <li><label for="emotion1">Angry</label>
+                    <input type="checkbox" id="emotion1" name="emotion1" checked>
+                </li>
+                <li><label for="emotion2">Sad</label>
+                    <input type="checkbox" id="emotion2" name="emotion2">
+                </li>
+                <li><label for="emotion3">Happy</label>
+                    <input type="checkbox" id="emotion3" name="emotion3">
+                </li>
+                <li><label for="emotion4">Ambivalent</label>
+                    <input type="checkbox" id="emotion4" name="emotion4">
+                </li>
+            </ul>
+            <li><label for="satisfaction">How satisfied were you with our service?</label></li>
+            <ul style="list-style-type: disc;">
+                <li><label for="level1">Very satisfied </label>
+                    <input type="radio" name="satisfactionlevel" id="level1" checked>
+                </li>
+                <li><label for="level2">Satisfied </label>
+                    <input type="radio" name="satisfactionlevel" id="level2">
+                </li>
+                <li><label for="level3">Didn't care</label>
+                    <input type="radio" name="satisfactionlevel" id="level3">
+                </li>
+                <li><label for="level4">Dissatisfied </label>
+                    <input type="radio" name="satisfactionlevel" id="level4">
+                </li>
+                <li><label for="level5">Very dissatisfied </label>
+                    <input type="radio" name="satisfactionlevel" id="level5">
+                </li>
+            </ul>
+            <li><label for="comment">Further comment:</label>
+                <textarea name="comment" id="" cols="30" rows="3"></textarea>
+            </li><br>
+            <li><label for="bphoto">Bio Photo:</label>
+                <input type="file" name="bphoto" value="Choose..">
+            </li><br>
+            <li><label for="location">location Visite:</label></li>
+            <li><input type="submit"></li>
+        </ul>
+    </form>
+</body>
+
+</html>

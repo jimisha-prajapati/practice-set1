@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 4</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 2px solid black;
+            margin: auto;
+
+        }
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Value</th>
+            </tr>
+            <tr>
+                <td><label for="name">Name</label></td>
+                <td><input type="text" name="name"></td>
+            </tr>
+            <tr>
+                <td rowspan="2"><label for="sex">Sex</label></td>
+                <td><input type="radio" name="malefefmale" id="male"><label for="male">Male</label></td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="malefefmale" id="female"><label for="female">Female</label></td>
+            </tr>
+            <tr>
+                <td><label for="eyecolor">Eye Color</label></td>
+                <td><select name="eyecolor" id="eyecolor">
+                        <option value="green">Green</option>
+                        <option value="black">Black</option>
+                        <option value="brown">Brown</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td rowspan="2"><label for="characterstcs">Check all your apply</label></td>
+                <td><input type="checkbox" name="char1" id="char1"><label for="char1">Over 6 feet tall</label></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="char2" id="char2"><label for="char2">Over 200 pound</label></td>
+            </tr>
+            <tr>
+                <td colspan="2"><label for="ability">Describe your althetic ability:<br>
+                        <textarea name="ability" id="" cols="40" rows="3"></textarea></label></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" value="Enter My Information" ></td>
+
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

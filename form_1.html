@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 1</title>
+</head>
+
+<body>
+    <h2>Travel Reservation Form</h2>
+    <h4>* Denotes Mandotory</h4>
+    <form>
+        <label for="name">Full Name:*</label><br>
+        <input type="text" name="name" placeholder="FirstName LastName" required><br>
+        <label for="emailadd">Email address:*</label><br>
+        <input type="email" name="emailadd" placeholder="EMAIL_ADDRESS" required><br>
+        <label for="tourpkg">Select Tour Package*:</label><br>
+        <select name="tourpkg" id="tourpkg" required>
+            <option value="goa">Goa</option>
+            <option value="manali">Manali</option>
+            <option value="kashmir">Kashmir</option>
+        </select><br>
+        <label for="adate">Ariaval Date*:</label><br>
+        <input type="date" name="arrivaldate"  pattern="" required><br>
+        <label for="noperson">Number of Person*:</label><br>
+        <input type="number" name="noperson" placeholder="UNKNOWN_TYPE" required><br>
+        <label for="avail">What would you want to avail?*</label><br>
+        <label for="avail1">Bording</label>
+        <input type="checkbox" id="avail1" name="avail1"><br>
+        <label for="avail2">Fooding</label>
+        <input type="checkbox" id="avail2" name="avail2"><br>
+        <label for="avail3">Slight seeing</label>
+        <input type="checkbox" id="avail3" name="avail3"><br>
+        <label for="coupon">Discount coupon code:</label><br>
+        <input type="number" placeholder="UNKNOWN_TYPE"><br>
+        <label for="agrornot">Term and conditions*</label><br>
+        <input type="radio" id="agree" name="agrornot" >
+        <label for="agree">I Agree</label>
+        <input type="radio" id="disagree" name="agrornot">
+        <label for="disagree">I Disagree</label><br>
+        <input type="submit" value="Complete conversation">
+
+
+
+    </form>
+</body>
+
+</html>
